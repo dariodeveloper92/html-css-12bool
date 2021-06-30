@@ -21,12 +21,6 @@
     flex-wrap: wrap;
 }
 
-.row-right {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
 .box,
 .box-nested {
     min-height: 50px;
@@ -38,7 +32,7 @@
 }
 
 .box-nested {
-    background: yellowgreen;
+    background: rgb(54, 255, 87);
 }
 
 [class*="col-"] {
@@ -81,3 +75,13 @@
 .col-xs-offset-11 {margin-left: calc((100% / 12) *11); max-width: calc((100% 12) * 11);}
 .col-xs-offset-12 {margin-left: calc((100% / 12) *12); max-width: calc((100% 12) * 12);}
 
+/* BONUS */
+.space-around {
+    display: flex;
+    justify-content: space-around;
+}
+
+.space-between {
+    display: flex;
+    justify-content: space-between;
+}
