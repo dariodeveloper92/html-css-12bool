@@ -32,6 +32,7 @@
     .col-xs-offset-10 {margin-left: calcl((100% / 12) *10); max-width: calc((10% 12) * 10);}
     .col-xs-offset-11 {margin-left: calcl((100% / 12) *11); max-width: calc((10% 12) * 11);}
     .col-xs-offset-12 {margin-left: calcl((100% / 12) *12); max-width: calc((10% 12) * 12);}
+}
 
 
 @media screen and (min-width: 576px) and (max-width: 767px) {
@@ -110,7 +111,7 @@
     .container {
         width: 960px;
     }
-    ..col-lg {
+    .col-lg {
         flex-grow: 1;
         flex-basis: 0;
         max-width: 100%;
