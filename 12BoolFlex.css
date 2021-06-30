@@ -24,7 +24,10 @@
 [class*="col-"] {
     flex: 0 0 auto;
     border: 1px solid red;/*da commentare */
+    background-color: blue;
+    color: white;
     height: 50px;/*da commentare */
+    text-align: center;
 }
 
 [class*="col-offset"] {
@@ -65,7 +68,7 @@
     .col-xs-offset-11 {margin-left: calcl((100% / 12) *11);}
     .col-xs-offset-12 {margin-left: calcl((100% / 12) *12);}
 
-/* DEBUD *//*da commentare */
+
 
 
 
